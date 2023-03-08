@@ -12,7 +12,7 @@ export default {
       console.log(to)
       const toIndex = to.meta.index;
       const fromIndex = from.meta.index;
-      // console.log("watch innier", newValue);
+      console.log("watch innier", newValue);
       transitionName = toIndex < fromIndex ? "slide-right" : "slide-left";
     });
 
