@@ -13,7 +13,7 @@ import '@/styles/index.css';//样式
 const app = createApp(App)
 
 //vue3全局挂载
-// app.config.globalProperties._ = _;
+app.config.globalProperties._ = _;
 
 
 import '@/permission'; 
